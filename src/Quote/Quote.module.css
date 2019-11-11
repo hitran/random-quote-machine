@@ -1,0 +1,43 @@
+.Quote,
+.Quote button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Quote {
+    background-color: white;
+    padding: 30px 30px 90px 30px;
+    border-radius: 5px;
+    width: 500px;
+    position: relative;
+}
+
+.Quote h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.Quote h3 {
+    text-align: right;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.Quote button {
+    padding: 15px;
+    border: transparent;
+    border-radius: 5px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: white !important;
+}
+
+.Quote button:focus {
+    outline: none;
+}
+.Quote button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}

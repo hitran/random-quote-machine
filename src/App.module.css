@@ -1,0 +1,60 @@
+.QuoteBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.QuoteBox h1 {
+    color: white;
+    font-weight: 800;
+    letter-spacing: 3px;
+    transition: 0.3s ease-in-out;
+}
+
+
+.Black,
+.Black button {
+    background-color: black;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+.Orange,
+.Orange button {
+    background-color: #B07156;
+    color: #B07156;
+    transition: 0.3s ease-in-out;
+}
+
+.Purple,
+.Purple button {
+    background-color: #6C464F;
+    color: #6C464F;
+    transition: 0.3s ease-in-out;
+}
+
+.Green,
+.Green button {
+    background-color: #3B4D53;
+    color: #3B4D53;
+    transition: 0.3s ease-in-out;
+}
+
+.Blue,
+.Blue button {
+    background-color: #1D668B;
+    color: #1D668B;
+    transition: 1s ease-in-out;
+}
+
+.Yellow,
+.Yellow button {
+    background-color: #B07156;
+    color: #B07156;
+    transition: 0.3s ease-in-out;
+}
